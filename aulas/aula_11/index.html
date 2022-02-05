@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>
+        Tente abrir esse site em vários dispositivos, ou aumente e diminua o tamanho da 
+        janela do seu navegador. A ideia é que as imagens se adaptem a diversas imagens.
+    </p>
+
+    <picture>
+        <source media="(max-width: 700px), (max-height700)" srcset="P.png" type="image/png">
+        <source media="(max-width: 1000px), (max-height 1000px) " srcset="M.png" type="image/png"> 
+        <img src="G.png" alt="imagem flex">
+    </picture>
+    
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos reproduzir audios em HTML5.</p>
+    <p>FNAF</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/fnaf_join_us_for_a_byte.mp3", type="audio/mpeg">
+        <sources src="midia/fnaf_join_us_for_a_byte.ogg", type=audio/ogg>
+        <sources src="midia/fnaf_join_us_for_a_byte.wav", type=audio/wav> <!--Arquivos pesados, tome cuidado-->
+        <p>
+            Infelizmente seu navegador não consegue reproduzir audio, 
+            baixe o arquivo <a href="midia/fnaf_join_us_for_a_byte.mp3"></a>
+        </p>
+    </audio>
+    <!-- MP3 WAV OGG-->
+
+</body>
+</html>

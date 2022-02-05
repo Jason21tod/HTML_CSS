@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: #1c1c1c;
+}
+
+p {
+    color: #efefef;
+    text-align: justify;
+    font-size: 1em;
+    font-family: sans-serif;
+}
