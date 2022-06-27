@@ -5,20 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Loggin</title>
 </head>
 <body>
     <head>
-        <h1>Loja online</h1>
+        <img src="android-chrome-192x192.png" alt="logo">
+        <h1>oja online</h1>
     </head>
 
     <body>
         <form>
             <h2>Loggin</h2>
             <ul>
-                <li><label for="email">Email: <input type="email"></label></li>
-                <li><label for="password">Senha: <input type="password" name="senha"></label></li>
-                <li><label for="cellphone">Celular(opicional): <input type="tel" name="cellphone"></label></li>
+                <li><label for="email">
+                    Email: <input required="true" placeholder="seuemail@dominio.com" type="email">
+                </label></li>
+                <li><label for="password">
+                    Senha: <input placeholder="senha" type="password" name="senha">
+                </label></li>
+                <li><label for="cellphone">
+                    Celular(opicional): <input placeholder="(XX)XXXXX-XXXX" type="tel" name="cellphone">
+                </label></li>
             </ul>
             <input type="submit" name="enviar">
         </form>
