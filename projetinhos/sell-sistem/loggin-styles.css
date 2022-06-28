@@ -1,0 +1,60 @@
+
+.logo-header {
+    align-self: center;
+    align-content: center;
+    padding: 5%;
+    background: #ADF;
+}
+
+.logo-header img {
+    background: rgb(153, 224, 224) ;
+    float: left;
+    position: absolute;
+    margin: 5% 10% 0% 5%
+}
+
+.logo-header h1 {
+    text-align: left;
+    width: auto;
+    color: #0011d3;
+    font-size: 4em;
+    display: block;
+    position: sticky;
+    margin-left: 20%;
+    margin-top: 15%;
+    padding: 0% 0% 0%;
+}
+
+form {
+    display: block;
+    align-self: center;
+    margin: 10% 20% 10%
+}
+
+form legend{
+    font-size: 2em;
+    margin: 0% 4% 2%;
+}
+
+input {
+    display: block;
+    margin-bottom: 3%;
+    margin-top: 1.5%;
+}
+
+footer {
+    align-self: auto;
+}
+
+.copyrights {
+    text-align: center;
+    background-color: #ADF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.copyrights p {
+    color: #0011d3;
+    font-weight: bold;
+    display: block;
+}

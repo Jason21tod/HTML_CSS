@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="loggin-styles.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Loggin</title>
 </head>
 <body>
-    <head>
-        <img src="android-chrome-192x192.png" alt="logo">
-        <h1>oja online</h1>
-    </head>
+    <header>
+        <div class = "logo-header">
+            <img src="android-chrome-192x192.png" alt="logo"> <h1>Loja online</h1>
+        </div>
+    </header>
 
     <body>
         <form>
-            <h2>Loggin</h2>
-            <ul>
+            <legend>Loggin</legend>
+            <ul class="input-block">
                 <li><label for="email">
                     Email: <input required="true" placeholder="seuemail@dominio.com" type="email">
                 </label></li>
@@ -28,12 +30,14 @@
                     Celular(opicional): <input placeholder="(XX)XXXXX-XXXX" type="tel" name="cellphone">
                 </label></li>
             </ul>
-            <input type="submit" name="enviar">
+            <input class="send-button" type="submit" name="enviar">
         </form>
     </body>
 
     <footer>
-        <p>&copy;Loja online all rights reserved</p>
+        <div class="copyrights">
+            <p>&copy;<em>Loja online all rights reserved</em></p>
+        </div>
     </footer>
 
 </body>
