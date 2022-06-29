@@ -87,6 +87,7 @@ input {
     form {
         width:55%;
         margin-left: 0%;
+        margin-bottom: 50%;
     }
 
     input {
@@ -96,8 +97,7 @@ input {
         text-align: center;
         width: auto;
         margin-left: 0%;
-        padding-bottom: 100px;
-
+        margin-top: 25%;
     }
     .copyrights p {
         margin-left: 0%;
