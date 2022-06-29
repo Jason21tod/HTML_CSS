@@ -1,34 +1,34 @@
 
-.logo-header {
+.logo-background {
+    background: #ADF;
+    position: relative;
+    padding-top: 7%;
+}
+
+
+.header-title {
+    font-family: 'Nutito', sans-serif;
     align-self: center;
     align-content: center;
     padding: 5%;
     background: #ADF;
-}
-
-.logo-header img {
-    background: rgb(153, 224, 224) ;
-    float: left;
-    position: absolute;
-    margin: 5% 10% 0% 5%
-}
-
-.logo-header h1 {
     text-align: left;
     width: auto;
     color: #0011d3;
-    font-size: 4em;
+    font-size: 6em;
     display: block;
     position: sticky;
     margin-left: 20%;
-    margin-top: 15%;
-    padding: 0% 0% 0%;
+    padding: 0% 10% 5%;
 }
 
 form {
+    border: #ADF 1px solid;
+    border-radius: 10px, 15px, 20px, 15px;
+    padding: 20px;
     display: block;
     align-self: center;
-    margin: 10% 20% 10%
+    margin: 10% 10% 10%
 }
 
 form legend{
@@ -42,19 +42,65 @@ input {
     margin-top: 1.5%;
 }
 
-footer {
-    align-self: auto;
+.logo {
+    margin: 17% 41% 10% 0%;
+    display: block;
+    float: right;
+    position: relative;
 }
 
 .copyrights {
+    clear: left;
     text-align: center;
     background-color: #ADF;
     padding-top: 5%;
     padding-bottom: 5%;
+    display: block;
 }
 
 .copyrights p {
     color: #0011d3;
     font-weight: bold;
-    display: block;
 }
+
+@media only screen and (max-width: 600px ) {
+    .logo {
+        width: 10%;
+        height: 20%;
+    };
+
+    .logo-background {
+        background: #ADF;
+        position: relative;
+        padding-top: 5%;
+        margin-left: 0%;
+        width: min-content;
+    }
+
+    .header-title {
+        font-size: 3em;
+        align-self: center;
+        margin-left: 0%;
+        width: fit-content;
+    }
+
+    form {
+        width:55%;
+        margin-left: 0%;
+    }
+
+    input {
+        margin-left: 0%;
+    }
+    .copyrights {
+        text-align: center;
+        width: auto;
+        margin-left: 0%;
+        padding-bottom: 100px;
+
+    }
+    .copyrights p {
+        margin-left: 0%;
+    }
+}
+
