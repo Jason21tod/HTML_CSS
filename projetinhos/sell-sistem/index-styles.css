@@ -1,0 +1,23 @@
+.navigation-menu {
+    align-content: center;
+}
+
+.navigation-menu li {
+    display: block;
+    padding-right: 10%;
+}
+
+.navigation-menu a {
+    font-family: 'Nutito', sans-serif;
+    display: inline-block;
+    margin-right: 2.5%;
+	text-transform: uppercase;
+	color: #0011d3;
+	font-weight: lighter;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.navigation-menu a:hover {
+    text-decoration: underline;
+}

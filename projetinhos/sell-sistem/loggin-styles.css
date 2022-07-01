@@ -8,6 +8,7 @@
 
 .header-title {
     font-family: 'Nutito', sans-serif;
+    font-weight: bolder;
     align-self: center;
     align-content: center;
     padding: 5%;
@@ -81,7 +82,8 @@ input {
         font-size: 3em;
         align-self: center;
         margin-left: 0%;
-        padding-left: 30%;
+        margin-right: 20%;
+        padding-left: 25%;
         width: fit-content;
     }
 
