@@ -72,3 +72,15 @@
     color: #009952;
 
 }
+
+@media screen and (max-width: 480px) {
+    .product-block {
+        height: 50%;
+        width: 50%;
+        margin-left: 20%
+    }
+
+    .product-infos {
+        padding-left: 15%;
+    }
+}
