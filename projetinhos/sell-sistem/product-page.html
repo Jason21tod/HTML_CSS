@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computador</title>
-</head>
-<body>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="loggin-styles.css">
+        <link rel="stylesheet" href="index-styles.css">
+        <link rel="stylesheet" href="product-page.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Compre agora</title>
     </head>
+    <body>
+        <header>
+            <div class="logo-background">
+                <h1 class = "header-title">Loja online</h1>
+                <nav class="navigation-menu">
+                    <a href="loggin-sistem.html">Log In</a> <a href="">support</a>
+                </nav>
+            </div>
+        </header>
 
     <main>
+        <h2>Tênis Nike Dual Fusion TR 6 Masculino</h2>
+        <div>
+            <img src="tenis.jpg" alt="Tenis Nike Dual Fusion TR 6 Masculino">
+            <hr>
+            <form>
+                <fieldset class="buy-type">
+                    <legend>Selecione o método de pagamento</legend>
+					<label for="radio-part"><input type="radio" name="buy-type" value="parcela" id="radio-part" required>6x R$40</label>
+					<label for="radio-pix"><input type="radio" name="buy-type" value="pix" id="radio-pix" required> PIX (R$240)</label>
+                    <label for="check-secure"><input type="checkbox" id="check-secure">Incluir seguro da nyke (+ R$40)?</label>
+                </fieldset>
+
+                <fieldset class="address">
+                    <legend>Digite o seu endereço</legend>
+                    <label for="address">endereço: </label>
+                    <textarea name="address" id="address" cols="30" rows="1"></textarea>
+                </fieldset>
+            </form>
+        </div>
     </main>
 
     <footer>
+        <div class="copyrights">
+            <p>&copy;<em>Loja online all rights reserved</em></p>
+        </div>
     </footer>
 
 </body>

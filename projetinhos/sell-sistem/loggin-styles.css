@@ -23,7 +23,7 @@
     padding: 0% 10% 5%;
 }
 
-form {
+.login-form {
     border: #ADF 1px solid;
     border-radius: 10px, 15px, 20px, 15px;
     padding: 20px;
@@ -32,12 +32,12 @@ form {
     margin: 10% 10% 10%
 }
 
-form legend{
+.login-form legend{
     font-size: 2em;
     margin: 0% 4% 2%;
 }
 
-input {
+.login-form input {
     display: block;
     margin-bottom: 3%;
     margin-top: 1.5%;
