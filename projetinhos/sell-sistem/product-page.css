@@ -1,0 +1,58 @@
+main {
+    font-family:'Nutito', sans-serif;
+}
+
+.product {
+    margin: 10%;
+}
+
+.product-name {
+    margin: 2% 6%;
+    font-family:'Nutito', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.product-block-buy {
+    margin-left: 15%;
+}
+
+.product {
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+    align-self: center;
+    padding: 1.5em;
+    margin-left: 25%;
+}
+
+.product-img-buy {
+    position: relative;
+    height: 70%;
+    width: 70%;
+}
+
+.buy-form {
+    display: inline-block;
+    position: relative;
+    height: 70%;
+    width: 70%;
+}
+
+.buy-type {
+    display: inline-block;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.address {
+    display: inline-block;
+    position: relative; 
+    font-size: 1.2em;
+}
+
+.sub {
+    display: inline-block;
+    position: relative;
+}

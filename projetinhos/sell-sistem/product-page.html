@@ -25,24 +25,27 @@
         </header>
 
     <main>
-        <h2>Tênis Nike Dual Fusion TR 6 Masculino</h2>
-        <div>
-            <img src="tenis.jpg" alt="Tenis Nike Dual Fusion TR 6 Masculino">
-            <hr>
-            <form>
-                <fieldset class="buy-type">
-                    <legend>Selecione o método de pagamento</legend>
-					<label for="radio-part"><input type="radio" name="buy-type" value="parcela" id="radio-part" required>6x R$40</label>
-					<label for="radio-pix"><input type="radio" name="buy-type" value="pix" id="radio-pix" required> PIX (R$240)</label>
-                    <label for="check-secure"><input type="checkbox" id="check-secure">Incluir seguro da nyke (+ R$40)?</label>
-                </fieldset>
-
-                <fieldset class="address">
-                    <legend>Digite o seu endereço</legend>
-                    <label for="address">endereço: </label>
-                    <textarea name="address" id="address" cols="30" rows="1"></textarea>
-                </fieldset>
-            </form>
+        <div class="product">
+            <h2 class="product-name">Tênis Nike Dual Fusion TR 6 Masculino</h2>
+            <div class="product-block-buy">
+                <img class="product-img-buy" src="tenis.jpg" alt="Tenis Nike Dual Fusion TR 6 Masculino">
+                <form class="buy-form">
+                    <fieldset class="buy-type">
+                        <legend class="buy-type-legend">Selecione o método de pagamento</legend>
+                                    <div><label for="radio-part"><input type="radio" name="buy-type" value="parcela" id="radio-part" required>6x R$40</label></div>
+                                    <div><label for="radio-pix"><input type="radio" name="buy-type" value="pix" id="radio-pix" required> PIX (R$240)</label></div>
+                        <div><label for="check-secure"><input type="checkbox" id="check-secure">Incluir seguro da nyke (+ R$40)?</label></div>
+                    </fieldset>
+                    <fieldset class="address">
+                        <legend class="address-legend">Digite o seu endereço: </legend>
+                        <label for="address"></label>
+                        <textarea name="address" id="address" cols="30" rows="1"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <input class="sub" type="submit" name="Enviar" id="sub">
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </main>
 
