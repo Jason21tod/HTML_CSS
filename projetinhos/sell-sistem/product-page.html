@@ -32,14 +32,20 @@
                 <form class="buy-form">
                     <fieldset class="buy-type">
                         <legend class="buy-type-legend">Selecione o método de pagamento</legend>
-                                    <div><label for="radio-part"><input type="radio" name="buy-type" value="parcela" id="radio-part" required>6x R$40</label></div>
-                                    <div><label for="radio-pix"><input type="radio" name="buy-type" value="pix" id="radio-pix" required> PIX (R$240)</label></div>
+                            <div><label for="radio-part"><input type="radio" name="buy-type" value="parcela" id="radio-part" required>6x R$40</label></div>
+                            <div><label for="radio-pix"><input type="radio" name="buy-type" value="pix" id="radio-pix" required> PIX (R$240)</label></div>
                         <div><label for="check-secure"><input type="checkbox" id="check-secure">Incluir seguro da nyke (+ R$40)?</label></div>
                     </fieldset>
                     <fieldset class="address">
                         <legend class="address-legend">Digite o seu endereço: </legend>
                         <label for="address"></label>
                         <textarea name="address" id="address" cols="30" rows="1"></textarea>
+                    </fieldset>
+                    <fieldset class="send-type">
+                        <legend>Selecione um meio de entrega</legend>
+                        <label for="radio-normal-send">normal<input type="radio" name="radio-send-type" id="radio-send-type"></label>
+                        <label for="radio-express-send">expresso<input type="radio" name="radio-send-type" id="radio-express-send"></label>
+
                     </fieldset>
                     <fieldset>
                         <input class="sub" type="submit" name="Enviar" id="sub">

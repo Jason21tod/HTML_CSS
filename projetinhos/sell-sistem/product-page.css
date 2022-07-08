@@ -16,6 +16,7 @@ main {
 
 .product-block-buy {
     margin-left: 15%;
+    border: 1px solid blue;
 }
 
 .product {
@@ -31,6 +32,7 @@ main {
     position: relative;
     height: 70%;
     width: 70%;
+    box-shadow: 10px 10px 15px;
 }
 
 .buy-form {
@@ -47,6 +49,12 @@ main {
 }
 
 .address {
+    display: inline-block;
+    position: relative; 
+    font-size: 1.2em;
+}
+
+.send-type {
     display: inline-block;
     position: relative; 
     font-size: 1.2em;
