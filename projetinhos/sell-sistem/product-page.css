@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Nutito', sans-serif;
+}
+
+h3 {
+    font-family: 'Nutito', sans-serif;
+    font-size: 1.7em
+}
+
+.general-infos {
+    display: inline-block;
+}
+
+.general-infos h2 {
+    margin-left: 10%;
+    font-size: 2em;
+    font-family: 'Nutito', sans-serif;
+    font-weight: bold;
+}
+
+.table-infos {
+    border-radius: 10px ;
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    margin: 3%;
+    padding: 3%;
+    font: 1.4em 'Nutito', sans-serif;
+}
+
+.table-descritor {
+    display: block;
+    margin-right: 5%;
+    background: gray;
+}
