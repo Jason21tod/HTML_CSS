@@ -1,10 +1,12 @@
+:root {--principal-color: #ADF;}
+
 h1 {
     font-family: 'Nutito', sans-serif;
 }
 
 h3 {
     font-family: 'Nutito', sans-serif;
-    font-size: 1.7em
+    font-size: 1.5em
 }
 
 .general-infos {
@@ -12,24 +14,53 @@ h3 {
 }
 
 .general-infos h2 {
-    margin-left: 10%;
-    font-size: 2em;
+    margin-left: 10%; margin-bottom: 10%;
+    font-size: 2.3em;
     font-family: 'Nutito', sans-serif;
     font-weight: bold;
 }
 
 .table-infos {
-    border-radius: 10px ;
-    display: inline-block;
+    background-color: var(--principal-color);
     position: relative;
-    border: 2px solid black;
+    border-radius: 10px ;
+    display: block;
+    border: 2px solid rgb(0, 0, 0);
     margin: 3%;
     padding: 3%;
     font: 1.4em 'Nutito', sans-serif;
+    width: 80%;
+}
+
+.table-infos h3 {
+    font-weight: bold;
+    margin: 4% 0% 4% 0%;
+    color: blue;
+    
+}
+
+.table-cell {
+    background: #ADF;
+    position: absolute;
+    display: block;
+    margin-bottom: 5%;
+    position: relative ;
+    border: 1px white solid;
+    align-items: center;
+    width: 170%;
 }
 
 .table-descritor {
-    display: block;
-    margin-right: 5%;
-    background: gray;
+    display: inline-block;
+    margin-right: 10%;
+    font-size: 1em;
+    background: var(--principal-color);
+    border-radius: 10%;
+    box-sizing: border-box;
+}
+
+.table-info {
+    align-content: center;
+    display: inline;
+    font-size: 0.9em;
 }
