@@ -1,11 +1,14 @@
-:root {--principal-color: #ADF;}
+:root {
+    --main-color: #ADF;
+    --main-font: 'Nutito', sans-serif
+}
 
 h1 {
-    font-family: 'Nutito', sans-serif;
+    font-family: var(--main-font)
 }
 
 h3 {
-    font-family: 'Nutito', sans-serif;
+    font-family: var(--main-font);
     font-size: 1.5em
 }
 
@@ -13,28 +16,29 @@ h3 {
     display: inline-block;
 }
 
-.general-infos h2 {
-    margin-left: 10%; margin-bottom: 10%;
-    font-size: 2.3em;
-    font-family: 'Nutito', sans-serif;
+h2 {
+    margin-left: 10%;
+    font-size: 2.7em;
+    font-family: var(--main-font);
     font-weight: bold;
 }
 
 .table-infos {
-    background-color: var(--principal-color);
+    background-color: var(--main-color);
     position: relative;
     border-radius: 10px ;
-    display: block;
+    display: inline-block;
     border: 2px solid rgb(0, 0, 0);
-    margin: 3%;
+    margin: 0% 3% 5%;
     padding: 3%;
-    font: 1.4em 'Nutito', sans-serif;
-    width: 80%;
+    font: 1.4em var(--main-font);
+    width: 40%;
 }
 
 .table-infos h3 {
+    display: inline-block;
     font-weight: bold;
-    margin: 4% 0% 4% 0%;
+    margin: 2% 0% 4% 0%;
     color: blue;
     
 }
@@ -47,14 +51,14 @@ h3 {
     position: relative ;
     border: 1px white solid;
     align-items: center;
-    width: 170%;
+    width: 100%;
 }
 
 .table-descritor {
     display: inline-block;
     margin-right: 10%;
     font-size: 1em;
-    background: var(--principal-color);
+    background: var(--main-color);
     border-radius: 10%;
     box-sizing: border-box;
 }
@@ -63,4 +67,52 @@ h3 {
     align-content: center;
     display: inline;
     font-size: 0.9em;
+}
+
+.description {
+    margin-top: 5%;
+    display: inline-block;
+    position: relative;
+    font-family: var(--main-font);
+    border: 2px #ADF solid;
+    width: 30%;
+    font-size: 1.2em;
+    padding: 2%;
+    vertical-align: middle;
+}
+
+.description h3 {
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+}
+
+.buy-now {
+    border-radius: 20px;
+    padding: 2%;
+    padding-left: 8%;
+    margin-left: 35%;
+    margin-bottom: 3%;
+    width: 15%;
+    clear: right;
+    display: inline-flex;
+    background-color: blue;
+}
+
+.buy-now:active {
+    background-color: blue;
+}
+
+.buy-now:hover {
+    background-color: #ADF;
+}
+
+.buy-now div {
+    font-size: 1.7em;
+    font-weight: lighter;
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
